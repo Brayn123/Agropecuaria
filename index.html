@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>webSite</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo"><span>Agropecuaria</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" onclick="Secao1()">Inicio</a></li>
+                <li class="nav-item"><a href="#" onclick="Secao2()">Sobre</a></li>
+                <li class="nav-item"><a href="#" onclick="Secao3()">Produtos</a></li>
+                <li class="nav-item"><a href="#" onclick="Secao4()">Contato</a></li>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id='home'>
+            <link rel="stylesheet" href="style_home.css">
+
+            <div class="home-text">
+                <h4 class="text-h4">Bem vindo a Agricultura</h4>
+                <h1 class="text-h1">Aqui as melhores soluções para o campo</h1>
+                <p>Aqui oferecemos os mais diversos serviços relacionados a Agropecuaria</p>
+                <a href="#" onclick="Secao2_1()" class="home-btn">Saiba Mais</a>
+            </div>
+            <div class="home-img">
+                <img src="Agricultura.png" alt="Agricultura">
+            </div>
+        </section>
+
+        <section class="Sobre" id='Sobre'>
+            <link rel="stylesheet" href="style_sobre.css">
+            <div class="Sobre-text">
+                <h1 class="text-h1">Somos referência na região</h1>
+                <p>&emsp;&emsp;&emsp;&emsp;A Agropecuária é uma empresa dedicada à produção sustentável
+                    de alimentos e à criação de animais. Localizada no coração do Paraná,
+                    a fazenda utiliza técnicas modernas de cultivo e manejo, garantindo a
+                    preservação do meio ambiente e a qualidade dos produtos.
+                    Com uma equipe de profissionais qualificados,
+                    a Agropecuária se destaca pela inovação e pelo compromisso com a sustentabilidade,
+                    fornecendo alimentos frescos e saudáveis para a comunidade local.</p>
+                <a href="#" onclick="Secao3_1()" class="home-btn">Produtos</a>
+            </div>
+
+            <div class="Sobre-img">
+                <img src="trator.png" alt="trator">
+            </div>
+
+        </section>
+
+        <section class="produtos" id="produtos">
+            <link rel="stylesheet" href="style_produtos1.css">
+            <h2 class="section-title">Produtos</h2>
+            <h3 class="section-subtitle">Mais pedidos</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Ração
+                    </h3>
+
+                    <span class="dish-description">
+                        A melhor ração para o seu pet de muito boa qualidade.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$5,50/kg</h4>
+
+                    </div>
+                </div>
+
+                <div class="dish">
+                    
+
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Shampoo Antipulgas
+                    </h3>
+
+                    <span class="dish-description">
+                        O seu amigo sempre livre de pulgas.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+
+                    </div>
+                </div>
+
+                <div class="dish">
+                   
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Casinha Para cachorros
+                    </h3>
+
+                    <span class="dish-description">
+                        Casinhas com material resistente perfeito pra seu cachorro.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$100,00</h4>
+
+                    </div>
+                </div>
+
+                <div class="dish">
+                   
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Potes de agua e ração
+                    </h3>
+
+                    <span class="dish-description">
+                        Para o seu pet estar sempre bem alimentado.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Contatos" id='Contatos'>
+            <link rel="stylesheet" href="style_Contatos.css">
+            <div id="Nome_contatos">
+                <h1>
+                    Agropecuaria
+                </h1>
+            </div>
+
+            <div id="cta_buttons">
+
+                <a href="https://wa.link/yr5k4x" id="phone_button">
+                    <button class="btn-default">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </button>
+                    (42) 99860-1654&emsp;
+                </a>
+            </div>
+
+            <div id="cta_buttons">
+
+                <a href="https://www.instagram.com/braynfrandoloso/" id="phone_button">
+                    <button class="btn-default">
+                        <i class="fa-brands fa-instagram"></i>
+                    </button>
+                    instagram&emsp;&emsp;&emsp;&emsp;
+                </a>
+            </div>
+
+            <div id="cta_buttons">
+
+                <a href="https://www.facebook.com/braynivanir.frandoloso.5/" id="phone_button">
+                    <button class="btn-default">
+                        <i class="fa-brands fa-facebook"></i>
+                    </button>
+                    facebook&emsp;&emsp;&emsp;&emsp;
+                </a>
+            </div>
+
+        </section>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
